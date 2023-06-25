@@ -1,0 +1,1099 @@
+body {
+    background-color: #dbd5d5;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    overflow-x: scroll;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+
+}
+
+
+
+/* Navbar */
+.navbar {
+    background-color: #F4EEE0;
+    position: relative;
+    padding: 10px;
+    margin: 0;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Login dan sign up */
+.signin-button,
+.signup-button {
+    position: relative;
+    width: 90px;
+    border-radius: 5px;
+    text-align: center;
+    left: 700px;
+    text-decoration: none;
+    font-family: 'poopins', sans-serif;
+}
+
+
+
+.signin-button {
+    background-color: #393646;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-top: 5px;
+
+}
+
+.signin-button:hover {
+    background-color: #8B778C;
+    color: #ccc;
+}
+
+.signup-button {
+    border: none;
+    background: none;
+    color: #6B596C;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.signup-button:hover {
+    color: #393646;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    padding-left: 45px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding-right: 500px;
+}
+
+.nav-links li {
+    margin: 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30;
+    position: relative;
+    align-items: center;
+    left: 500px;
+
+}
+
+.nav-links li a:hover {
+    color: #6B596C;
+}
+
+.nav-links li a:active,
+.nav-links li a:focus {
+    text-decoration: none;
+    background-color: #8B778C;
+    border-radius: 10px;
+    color: #ECE1E1;
+}
+
+/* And Navbar */
+
+/* Benner */
+.benner {
+    position: relative;
+    height: 150px;
+    top: -15px;
+    right: -45px;
+    padding: 5;
+    margin-right: 100px;
+    background-color: #8B778C;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.promo-benner {
+    position: relative;
+    background-color: #D9D9D9;
+    margin-right: 1050px;
+    margin-top: 15px;
+    padding: 5px;
+    text-align: center;
+    color: #8B778C;
+    font-weight: 600;
+}
+
+.konten-benner {
+    list-style: none;
+    display: flex;
+    padding-right: 500px;
+}
+
+.konten-benner li {
+    margin: 5px;
+}
+
+.national {
+    position: relative;
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    top: -25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.national-2 {
+    position: relative;
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    top: 10px;
+    left: -162px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.up {
+    position: absolute;
+    color: white;
+    top: 100px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.panah-kiri img {
+    position: relative;
+    left: -280px;
+    height: 30px;
+    top: 15px;
+}
+
+.panah-kanan img {
+    position: absolute;
+    align-items: center;
+    height: 35px;
+    top: 60px;
+    z-index: 2;
+    right: -10px;
+}
+
+
+.gambar-1 img {
+    position: absolute;
+    top: 0px;
+    width: 250px;
+    height: 150px;
+    padding: 0;
+    left: 433px;
+}
+
+.gambar-2 img {
+    position: absolute;
+    top: 0px;
+    width: 260px;
+    height: 150px;
+    padding: 0px;
+    left: 682px;
+}
+
+.gambar-3 img {
+    position: absolute;
+    top: 0px;
+    height: 150px;
+    width: 260px;
+    z-index: 1;
+    left: 941px;
+}
+
+/* And Benner */
+
+/* Produk Category */
+.product-category {
+    background-color: #8B778C;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: 50px;
+    width: 160px;
+    border-radius: 4px;
+
+}
+
+/* And Produk Category */
+
+/* Menu */
+.menu-category {
+    font-family: 'poopins', sans-serif;
+    position: absolute;
+    padding: 30px;
+    padding-left: 25px;
+    padding-top: 10px;
+    border-radius: 0px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.poto-1 {
+    margin-left: 45px;
+    display: inline-block;
+    background-color: #ECE1E1;
+}
+
+.coffe {
+    position: absolute;
+    margin-left: 45px;
+    background-color: #D9D9D9;
+    height: 15px;
+    width: 110px;
+    padding: 5px;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.coffe:hover {
+    color: white;
+    background-color: #8B778C;
+}
+
+.coffe:active,
+.coffe:focus {
+    background-color: #393646;
+}
+
+.poto-2 {
+    position: absolute;
+    background-color: #ECE1E1;
+    margin-left: 250px;
+    margin-top: -95px;
+    display: flex;
+}
+
+.toast {
+    height: 15px;
+    width: 111px;
+    margin-left: 250px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.toast:hover {
+    color: white;
+    background-color: #8B778C;
+}
+
+.toast:active,
+.toast:focus {
+    background-color: #393646;
+}
+
+.poto-3 {
+    position: absolute;
+    background-color: #ECE1E1;
+    margin-left: 450px;
+    margin-top: -120px;
+    display: flex;
+}
+
+.french-friesh {
+    height: 15px;
+    width: 110px;
+    margin-left: 450px;
+    margin-top: -25px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.french-friesh:hover {
+    color: white;
+    background-color: #8B778C;
+}
+
+.french-friesh:active {
+    background-color: #393646;
+}
+
+.poto-4 {
+    position: absolute;
+    background-color: #ECE1E1;
+    margin-left: 650px;
+    margin-top: -120px;
+    display: flex;
+}
+
+.dessert {
+    height: 15px;
+    width: 111px;
+    margin-left: 650px;
+    margin-top: -25px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.dessert:hover {
+    color: white;
+    background-color: #8B778C;
+}
+
+.dessert:active,
+.dessert:focus {
+    background-color: #393646;
+}
+
+.poto-3 {
+    position: absolute;
+    background-color: #ECE1E1;
+    margin-left: 450px;
+    margin-top: -120px;
+    display: flex;
+}
+
+.french-friesh {
+    height: 15px;
+    width: 110px;
+    margin-left: 450px;
+    margin-top: -25px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.french-friesh:hover {
+    color: white;
+    background-color: #8B778C;
+}
+
+.french-friesh:active {
+    background-color: #393646;
+}
+
+.poto-5 {
+    position: absolute;
+    background-color: #ECE1E1;
+    margin-left: 850px;
+    margin-top: -120px;
+    display: flex;
+}
+
+.drinks {
+    height: 15px;
+    width: 110px;
+    margin-left: 850px;
+    margin-top: -25px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.drinks:hover {
+    color: white;
+    background-color: #8B778C;
+}
+
+.drinks:active {
+    background-color: #393646;
+}
+
+.poto-6 {
+    position: absolute;
+    background-color: #ECE1E1;
+    margin-left: 1050px;
+    margin-top: -120px;
+    display: flex;
+}
+
+.tea {
+    height: 15px;
+    width: 111px;
+    margin-left: 1050px;
+    margin-top: -25px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.tea:hover {
+    color: white;
+    background-color: #8B778C;
+}
+
+.tea:active,
+.tea.coffe:focus {
+    background-color: #393646;
+}
+
+/* And Menu */
+
+/* Tulisan All Product */
+.tulisan-allproduct {
+    position: absolute;
+    padding: 0;
+    margin-top: 150px;
+    margin-left: 525px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'poopins', sans-serif;
+}
+
+/* And Tulisan All Product */
+
+/* bar search */
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 215px;
+}
+
+.search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 850px;
+}
+
+.search-button {
+    padding: 8px 16px;
+    background-color: #393646;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.search-button:hover {
+    color: white;
+    background-color: #8B778C;
+}
+
+.search-button:active {
+    background-color: #393646;
+}
+
+/* and bar search */
+
+
+/* Product Random */
+
+.card-produkrndm {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+
+
+.card1 {
+    width: 240px;
+    background-color: #fffefe;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 450px;
+    border-radius: 4px;
+}
+.product-image1 {
+    width: 220px;
+    height: 210px;
+    object-fit: cover;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 0;
+}
+
+.product-ctgr1 {
+    font-weight: 300;
+    font-family: 'poopins', sans-serif;
+    position: relative;
+    font-size: 15px;
+    left: 10px;
+    top: -5px;
+}
+.product-name1 {
+    font-weight: 600;
+    position:relative;
+    font-family: 'poopins', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    top: -30px;
+}
+.deskripsi-product1 {
+    position: relative;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'poopins', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    top: -40px;
+}
+.harga-1 {
+    text-align: left;
+    font-weight: 700;
+    position: relative;
+    top: -45px;
+    left: 20px;
+    font-family: 'poopins', sans-serif;
+    font-size: 20px;
+}
+
+.buy-button1 {
+    background-color: #393646;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    border-radius: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    top: -87px;
+    right: -150px;
+}
+
+.buy-button1:hover {
+    background-color: #8B778C;
+
+}
+
+.card2 {
+    width: 240px;
+    position: absolute;
+    background-color: #fffefe;
+    margin-left: 300px;
+    margin-top: -450px;
+    height: 450px;
+    border-radius: 4px;
+}
+.product-image2 {
+    width: 220px;
+    height: 210px;
+    object-fit: cover;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 0;
+}
+
+.product-ctgr2 {
+    font-weight: 300;
+    font-family: 'poopins', sans-serif;
+    position: relative;
+    font-size: 15px;
+    left: 10px;
+    top: -5px;
+}
+.product-name2 {
+    font-weight: 600;
+    position:relative;
+    font-family: 'poopins', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    top: -30px;
+}
+.deskripsi-product2 {
+    position: relative;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'poopins', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    top: -40px;
+}
+.harga-2 {
+    text-align: left;
+    font-weight: 700;
+    position: relative;
+    top: -45px;
+    left: 20px;
+    font-family: 'poopins', sans-serif;
+    font-size: 20px;
+}
+
+.buy-button2 {
+    background-color: #393646;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    border-radius: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    top: -87px;
+    right: -150px;
+}
+
+.buy-button2:hover {
+    background-color: #8B778C;
+
+}
+
+.card3 {
+    width: 240px;
+    position: absolute;
+    background-color: #fffefe;
+    margin-left: 580px;
+    margin-top: -450px;
+    height: 450px;
+    border-radius: 4px;
+}
+.product-image3 {
+    width: 220px;
+    height: 210px;
+    object-fit: cover;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 0;
+}
+
+.product-ctgr3 {
+    font-weight: 300;
+    font-family: 'poopins', sans-serif;
+    position: relative;
+    font-size: 15px;
+    left: 10px;
+    top: -5px;
+}
+.product-name3 {
+    font-weight: 600;
+    position:relative;
+    font-family: 'poopins', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    top: -30px;
+}
+.deskripsi-product3 {
+    position: relative;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'poopins', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    top: -40px;
+}
+.harga-3 {
+    text-align: left;
+    font-weight: 700;
+    position: relative;
+    top: -45px;
+    left: 20px;
+    font-family: 'poopins', sans-serif;
+    font-size: 20px;
+}
+
+.buy-button3 {
+    background-color: #393646;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    border-radius: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    top: -87px;
+    right: -150px;
+}
+
+.buy-button3:hover {
+    background-color: #8B778C;
+
+}
+
+.card4 {
+    width: 240px;
+    position: absolute;
+    background-color: #fffefe;
+    margin-left: 860px;
+    margin-top: -450px;
+    height: 450px;
+    border-radius: 4px;
+}
+.product-image4 {
+    width: 220px;
+    height: 210px;
+    object-fit: cover;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 0;
+}
+
+.product-ctgr4 {
+    font-weight: 300;
+    font-family: 'poopins', sans-serif;
+    position: relative;
+    font-size: 15px;
+    left: 10px;
+    top: -5px;
+}
+.product-name4 {
+    font-weight: 600;
+    position:relative;
+    font-family: 'poopins', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    top: -30px;
+}
+.deskripsi-product4 {
+    position: relative;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'poopins', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    top: -40px;
+}
+.harga-4 {
+    text-align: left;
+    font-weight: 700;
+    position: relative;
+    top: -15px;
+    left: 20px;
+    font-family: 'poopins', sans-serif;
+    font-size: 20px;
+}
+
+.buy-button4 {
+    background-color: #393646;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    border-radius: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    top: -55px;
+    right: -150px;
+}
+
+.buy-button4:hover {
+    background-color: #8B778C;
+
+}
+
+.card5 {
+    width: 240px;
+    position: absolute;
+    background-color: #fffefe;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 450px;
+    border-radius: 4px;
+}
+.product-image5 {
+    width: 220px;
+    height: 210px;
+    object-fit: cover;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 0;
+}
+
+.product-ctgr5 {
+    font-weight: 300;
+    font-family: 'poopins', sans-serif;
+    position: relative;
+    font-size: 15px;
+    left: 10px;
+    top: -5px;
+}
+.product-name5 {
+    font-weight: 600;
+    position:relative;
+    font-family: 'poopins', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    top: -30px;
+}
+.deskripsi-product5 {
+    position: relative;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'poopins', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    top: -40px;
+}
+.harga-5 {
+    text-align: left;
+    font-weight: 700;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    font-family: 'poopins', sans-serif;
+    font-size: 20px;
+}
+
+.buy-button5 {
+    background-color: #393646;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    border-radius: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    top: -40px;
+    right: -150px;
+}
+
+.buy-button5:hover {
+    background-color: #8B778C;
+
+}
+
+.card6 {
+    width: 240px;
+    position: absolute;
+    background-color: #fffefe;
+    margin-left: 300px;
+    margin-top: 30px;
+    height: 450px;
+    border-radius: 4px;
+}
+.product-image6 {
+    width: 220px;
+    height: 210px;
+    object-fit: cover;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 0;
+}
+
+.product-ctgr6 {
+    font-weight: 300;
+    font-family: 'poopins', sans-serif;
+    position: relative;
+    font-size: 15px;
+    left: 10px;
+    top: -5px;
+}
+.product-name6 {
+    font-weight: 600;
+    position:relative;
+    font-family: 'poopins', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    top: -30px;
+}
+.deskripsi-product6 {
+    position: relative;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'poopins', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    top: -40px;
+}
+.harga-6 {
+    text-align: left;
+    font-weight: 700;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    font-family: 'poopins', sans-serif;
+    font-size: 20px;
+}
+
+.buy-button6 {
+    background-color: #393646;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    border-radius: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    top: -40px;
+    right: -150px;
+}
+
+.buy-button6:hover {
+    background-color: #8B778C;
+
+}
+
+
+.card7 {
+    width: 240px;
+    position: absolute;
+    background-color: #fffefe;
+    margin-left: 580px;
+    margin-top: 30px;
+    height: 450px;
+    border-radius: 4px;
+}
+.product-image7 {
+    width: 220px;
+    height: 210px;
+    object-fit: cover;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 0;
+}
+
+.product-ctgr7 {
+    font-weight: 300;
+    font-family: 'poopins', sans-serif;
+    position: relative;
+    font-size: 15px;
+    left: 10px;
+    top: -5px;
+}
+.product-name7 {
+    font-weight: 600;
+    position:relative;
+    font-family: 'poopins', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    top: -30px;
+}
+.deskripsi-product7 {
+    position: relative;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'poopins', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    top: -40px;
+}
+.harga-7 {
+    text-align: left;
+    font-weight: 700;
+    position: relative;
+    top: -30px;
+    left: 20px;
+    font-family: 'poopins', sans-serif;
+    font-size: 20px;
+}
+
+.buy-button7 {
+    background-color: #393646;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    border-radius: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    top: -75px;
+    right: -150px;
+}
+
+.buy-button7:hover {
+    background-color: #8B778C;
+
+}
+
+.card8 {
+    width: 240px;
+    position: absolute;
+    background-color: #fffefe;
+    margin-left: 860px;
+    margin-top: 30px;
+    height: 450px;
+    border-radius: 4px;
+}
+.product-image8 {
+    width: 220px;
+    height: 210px;
+    object-fit: cover;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 0;
+}
+
+.product-ctgr8 {
+    font-weight: 300;
+    font-family: 'poopins', sans-serif;
+    position: relative;
+    font-size: 15px;
+    left: 10px;
+    top: -5px;
+}
+.product-name8 {
+    font-weight: 600;
+    position:relative;
+    font-family: 'poopins', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    top: -30px;
+}
+.deskripsi-product8 {
+    position: relative;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'poopins', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    top: -40px;
+}
+.harga-8 {
+    text-align: left;
+    font-weight: 700;
+    position: relative;
+    top: -50px;
+    left: 20px;
+    font-family: 'poopins', sans-serif;
+    font-size: 20px;
+}
+
+.buy-button8 {
+    background-color: #393646;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    border-radius: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    top: -95px;
+    right: -150px;
+}
+.buy-button8:hover {
+    background-color: #8B778C;
+
+}
